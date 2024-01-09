@@ -67,7 +67,7 @@ img {
 /* FOCUS */
 
 *:focus {
-  outline: 2px dashed var(--orange);
+  outline: 2px dashed var(--text-color);
   outline-offset: 3px;
 }
 
