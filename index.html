@@ -6,6 +6,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+
     <!-- Fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,8 +14,42 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap"
       rel="stylesheet"
+    />
     <title>Preview Card</title>
   </head>
 
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="preview-card">
+        <img
+          class="preview-card__img"
+          src="./images/illustration-article.svg"
+          alt="Smth"
+          width="336"
+          height="200"
+        />
+
+        <div class="preview-card__content">
+          <a href="#" class="preview-card__learning--btn">learning</a>
+          <p class="preview-card__publish">Published 21 Dec 2023</p>
+          <h1 class="preview-card__topic">HTML & CSS foundations</h1>
+          <p class="preview-card__description">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+
+        <div class="preview-card__profile">
+          <img
+            class="preview-card__profile--img"
+            src="./images/image-avatar.webp"
+            alt=""
+            width="32"
+            height="32"
+          />
+          <h3 class="preview-card__profile--name">Greg Hooper</h3>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
