@@ -215,11 +215,6 @@ img {
     font-size: 20px;
     line-height: 30px;
   }
-
-  .preview-card__description {
-    font-size: 14px;
-    line-height: 21px;
-  }
 }
 
 @media only screen and (max-width: 350px) {
