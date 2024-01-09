@@ -225,7 +225,7 @@ img {
 @media only screen and (max-width: 350px) {
   .preview-card {
     max-width: 300px;
-    padding: 18px;
+    padding: 15px;
   }
 
   .preview-card__content {
